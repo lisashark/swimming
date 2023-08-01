@@ -104,10 +104,6 @@ img {
     font: inherit;
 }
 
-img {
-    vertical-align: middle
-}
-
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -154,6 +150,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    vertical-align: middle
+}
+
 //form
 button {
     background-color: transparent;
@@ -161,4 +161,12 @@ button {
 
 textarea {
     resize: vertical;
+}
+
+
+//boxsizing
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
 }
