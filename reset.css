@@ -154,7 +154,7 @@ img {
     vertical-align: middle
 }
 
-//form
+/* form */
 button {
     background-color: transparent;
 }
@@ -164,7 +164,7 @@ textarea {
 }
 
 
-//boxsizing
+/* boxsizing */
 *,
 *::after,
 *::before {
