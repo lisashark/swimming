@@ -1,0 +1,28 @@
+.imgBox {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  overflow: hidden;
+}
+.imgBox img,
+.imgBox source,
+.imgBox svg {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  transition: transform 0.6s ease-in;
+}
+.imgBox.hover:hover img,
+.imgBox.hover:hover source {
+  transform: scale(1.2) translateY(-3px);
+}
+
+.ellipsis-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}

@@ -3,7 +3,9 @@
   height: auto;
   overflow: hidden;
 
-  img,source,svg {
+  img,
+  source,
+  svg {
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -21,8 +23,8 @@
 }
 
 .ellipsis-3 {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-    overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
