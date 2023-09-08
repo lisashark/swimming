@@ -3,6 +3,7 @@
   width: fit-content;
   height: auto;
   overflow: hidden;
+  display: block;
 }
 .imgBox img,
 .imgBox source,
