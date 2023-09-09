@@ -15,6 +15,9 @@ $blockquote-font-size: $font-size-base * 1.25 !default;
 $blockquote-footer-color: $gray-600 !default;
 $blockquote-footer-font-size: $small-font-size !default;
 
+$hr-bg-color: null !default; // Deprecated in v5.2.0
+$hr-height: null !default; // Deprecated in v5.2.0
+$hr-border-width: $border-width !default;
 $hr-margin-y: $spacer !default;
 $hr-color: inherit !default;
 $hr-height: $border-width !default;
