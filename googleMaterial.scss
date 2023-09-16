@@ -8,7 +8,12 @@
         'FILL' 1, // 0 outline
         'wght' 700,
         'GRAD' 200,
-        'opsz' 48
+        'opsz' 48;
+
+    &.outline {
+        font-variation-settings:
+            'FILL' 0;
+    }
 }
 
 .material-symbols-rounded {
@@ -16,7 +21,12 @@
         'FILL' 1, // 0 outline
         'wght' 700,
         'GRAD' 200,
-        'opsz' 48
+        'opsz' 48;
+
+    &.outline {
+        font-variation-settings:
+            'FILL' 0;
+    }
 }
 
 .material-symbols-outlined {
@@ -24,7 +34,12 @@
         'FILL' 1, // 0 outline
         'wght' 700,
         'GRAD' 200,
-        'opsz' 48
+        'opsz' 48;
+
+    &.outline {
+        font-variation-settings:
+            'FILL' 0;
+    }
 }
 
 .icon-rounded:after {
