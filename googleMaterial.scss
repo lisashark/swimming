@@ -42,17 +42,32 @@
     }
 }
 
-.icon-rounded:after {
+.icon-rounded-after:after {
     font-family: "Material Symbols Rounded";
     // content: '\e5cc';
 }
 
-.icon-outlined:after {
+.icon-outlined-after:after {
     font-family: "Material Symbols Outlined";
     // content: '\e5cc';
 }
 
-.icon-sharp:after {
+.icon-sharp-after:after {
+    font-family: "Material Symbols Sharp";
+    // content: '\e5cc';
+}
+
+.icon-rounded-before:before {
+    font-family: "Material Symbols Rounded";
+    // content: '\e5cc';
+}
+
+.icon-outlined-before:before {
+    font-family: "Material Symbols Outlined";
+    // content: '\e5cc';
+}
+
+.icon-sharp-before:before {
     font-family: "Material Symbols Sharp";
     // content: '\e5cc';
 }
